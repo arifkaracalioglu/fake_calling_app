@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/mTextPickTime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/choose_a_delay_time"
+        android:textAlignment="gravity"
+        android:textSize="15sp" />
+
+    <NumberPicker
+        android:id="@+id/mNumberPicker"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:layout_weight="3"/>
+
+    <Button
+        android:id="@+id/mBtnPickImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/btns_background"
+        android:text="@string/pick_image"
+        android:onClick="clickPickImage"/>
+
+    <Button
+        android:id="@+id/mBtnSave"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/btns_background"
+        android:onClick="clickSaveBtn"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/mBtnBack"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/btns_background"
+        android:onClick="clickBackBtn"
+        android:text="@string/back" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@drawable/gradient_layout"
+        android:layout_margin="25dp">
+        <ImageView
+            android:id="@+id/mSSView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

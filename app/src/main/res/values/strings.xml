@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CallYourSelf</string>
+    <string name="copyright">Hae Software</string>
+    <string name="empty">Boş</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="back">Geri Dön</string>
+    <string name="call">Ara</string>
+    <string name="settings">Ayarlar</string>
+    <string name="wait_time">Gecikme</string>
+    <string name="time_out">Gecikme Süresi: </string>
+    <string name="save">Kaydet</string>
+    <string name="saved">Kaydedildi</string>
+    <string name="put_name">İsim girin</string>
+    <string name="for_settings">Ayarlar</string>
+    <string name="pick_image">Görsel Seç</string>
+    <string name="finish">Bitir</string>
+    <string name="image_saved">Görsel kaydedildi</string>
+    <string name="image_error">Sorun oluştu</string>
+    <string name="didnt_pick_image">Görsel Seçmediniz</string>
+    <string name="choose_a_delay_time">Gecikme Süresini Seçin</string>
+    <string name="first_settings">İlk ayarlarınızı yapana kadar sahte arama oluşturamayacaksınız</string>
+    <string name="permission_needed">Uygulamanın kendi içindeki fotoğrafa erişebilmesi için izin gerekli</string>
+    <string name="permission_granted">İzin verildi</string>
+    <string name="permission_denied">İzin reddedildi uygulama kapatılıyor</string>
+    <string name="permission_needed_title">İzin gerekli</string>
+    <string name="hsssh">Hşşşşşş!</string>
+    <string name="there_is_no_photo">Ekranda görünecek fotoğrafı seçmediniz.</string>
+</resources>
