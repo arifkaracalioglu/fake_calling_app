@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
             mLayoutParams.type = WindowManager.LayoutParams.TYPE_PHONE;
         }
         PowerManager pm = (PowerManager) getApplicationContext().getSystemService(Context.POWER_SERVICE);
-        @SuppressLint("InvalidWakeLockTag") PowerManager.WakeLock wakeLock = pm.newWakeLock((PowerManager.SCREEN_BRIGHT_WAKE_LOCK | PowerManager.FULL_WAKE_LOCK | PowerManager.ACQUIRE_CAUSES_WAKEUP), "TAG");
+        @SuppressLint("InvalidWakeLockTag") PowerManager.WakeLock wakeLock = pm.newWakeLock((PowerManager.PARTIAL_WAKE_LOCK), "CallYourSelfWakeLock");
         wakeLock.acquire();
       //  mWindowManager.addView(mView, mLayoutParams);
     }
